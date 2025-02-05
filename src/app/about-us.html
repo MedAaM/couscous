@@ -42,11 +42,13 @@
                 <div class="relative w-full flex-none lg:max-w-[555px]">
                     <img src="/assets/images/videothumb.png" class="h-full w-full object-cover" alt="" />
                     <span class="absolute inset-0 bg-black/30"></span>
+                    <a href="https://www.facebook.com/watch/?ref=search&v=552678274322373&external_log_id=b9c9ed8a-d604-47e1-9396-e5400c980580&q=%D8%A7%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D9%83%D8%B3%D9%83%D8%B3%D9%8A"
+                    target="_blank">
                     <button
                         type="button"
-                        class="absolute top-1/2 left-1/2 flex h-[60px] w-[60px] -translate-y-1/2 -translate-x-1/2 items-center justify-center bg-white/40"
-                        (click)="modal?.open()"
-                    >
+                        class="absolute top-1/2 left-1/2 flex h-[60px] w-[60px] -translate-y-1/2 -translate-x-1/2 items-center justify-center bg-white/40" 
+                     >
+                
                         <svg width="20" height="26" viewBox="0 0 20 26" fill="none">
                             <path
                                 d="M2.40668 1.04988C2.20606 0.916037 1.97291 0.839108 1.73203 0.827287C1.49116 0.815465 1.25159 0.869194 1.03883 0.982755C0.826077 1.09631 0.648107 1.26545 0.523872 1.47216C0.399638 1.67886 0.333789 1.91539 0.333344 2.15655V23.8432C0.333789 24.0844 0.399638 24.3209 0.523872 24.5276C0.648107 24.7343 0.826077 24.9035 1.03883 25.017C1.25159 25.1306 1.49116 25.1843 1.73203 25.1725C1.97291 25.1607 2.20606 25.0837 2.40668 24.9499L18.67 14.1099C18.8529 13.9882 19.0029 13.8232 19.1066 13.6295C19.2104 13.4359 19.2646 13.2196 19.2646 12.9999C19.2646 12.7802 19.2104 12.5639 19.1066 12.3703C19.0029 12.1766 18.8529 12.0116 18.67 11.8899L2.40668 1.04988Z"
@@ -54,6 +56,7 @@
                             />
                         </svg>
                     </button>
+                    </a>
                 </div>
                 <div class="flex-1 bg-white p-5 uppercase italic dark:bg-gray-dark sm:p-[30px]">
                     <h4 class="text-2xl font-black leading-10 text-black dark:text-white">Journée Mondiale du Couscous </h4>
@@ -78,7 +81,8 @@
                     <button
                         type="button"
                         class="absolute top-1/2 left-1/2 flex h-[60px] w-[60px] -translate-y-1/2 -translate-x-1/2 items-center justify-center bg-white/40"
-                        (click)="modal?.open()"
+                        target="_blank"
+                        href=""
                     >
                         <svg width="20" height="26" viewBox="0 0 20 26" fill="none">
                             <path
@@ -188,7 +192,7 @@
             <div class="grid items-center gap-5 lg:grid-cols-2">
                 <div class="group overflow-hidden lg:order-2 lg:h-[500px]" data-aos="fade-left" data-aos-duration="1000">
                     <img
-                        src="/assets/images/gym/02-image.jpg"
+                        src="/assets/images/restaurent/formation.jpeg"
                         alt=""
                         class="h-full w-full object-cover transition duration-500 group-hover:rotate-6 group-hover:scale-125"
                     />
@@ -219,7 +223,7 @@
     <section class="overflow-x-hidden bg-white dark:bg-black">
         <div class="grid items-center lg:grid-cols-2">
             <div class="h-full lg:order-2 xl:h-[640px]" data-aos="fade-left" data-aos-duration="1500">
-                <img src="/assets/images/gym/journey.jpg" alt="" class="h-full w-full object-cover" />
+                <img src="/assets/images/restaurent/gal2.jpg" alt="" class="h-full w-full object-cover" />
             </div>
             <div class="px-4 py-10 ltr:xl:mr-24 rtl:xl:ml-24">
                 <div class="font-semibold uppercase italic lg:max-w-[610px] ltr:lg:ml-auto rtl:lg:mr-auto">
@@ -249,7 +253,7 @@
                 </div>
             </div>
             <div class="h-full xl:h-[640px]" data-aos="fade-right" data-aos-duration="1500">
-                <img src="/assets/images/gym/fitness.jpg" alt="" class="h-full w-full object-cover" />
+                <img src="/assets/images/restaurent/cooking.jpeg" alt="" class="h-full w-full object-cover" />
             </div>
         </div>
         
@@ -791,7 +795,7 @@
                         (click)="open(0)"
                     >
                         <img
-                            src="/assets/images/gallery-1.png"
+                            src="/assets/images/restaurent/gal1.jpg"
                             alt="gallery-1"
                             class="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                         />
@@ -803,7 +807,7 @@
                         (click)="open(1)"
                     >
                         <img
-                            src="/assets/images/gallery-2.png"
+                            src="/assets/images/restaurent/gal2.jpg"
                             alt="gallery-2"
                             class="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                         />
@@ -815,7 +819,7 @@
                         (click)="open(2)"
                     >
                         <img
-                            src="/assets/images/gallery-3.png"
+                            src="/assets/images/restaurent/gal3.png"
                             alt="gallery-3"
                             class="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                         />
@@ -829,7 +833,7 @@
                         (click)="open(3)"
                     >
                         <img
-                            src="/assets/images/gallery-4.png"
+                            src="/assets/images/restaurent/gal4.jpg"
                             alt="gallery-4"
                             class="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                         />
@@ -841,7 +845,7 @@
                         (click)="open(4)"
                     >
                         <img
-                            src="/assets/images/gallery-5.png"
+                            src="/assets/images/restaurent/gal5.jpg"
                             alt="gallery-5"
                             class="h-full w-full rounded-[32px] object-cover transition duration-500 hover:rotate-12 hover:scale-125"
                         />

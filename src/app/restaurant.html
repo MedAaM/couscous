@@ -12,18 +12,22 @@
                 <div class="container">
                     <div class="max-w-[624px] pt-10 text-center ltr:md:text-left rtl:md:text-right">
                         <h2 class="text-4xl font-black sm:text-5xl md:text-[70px] md:leading-[70px] whitespace-nowrap">
-                            <span class="text-primary">Couscous Academy</span> 
+                            <span class="text-primary font-andada">Couscous Academy</span> 
                         </h2>
                         <h4 class="text-2xl mt-2 font-black sm:text-3xl md:text-[40px] md:leading-[55px] text-center">
-                            <span class="block">L’Excellence de la Tradition à</span>
-                            <span class="block text-secondary">l’Innovation</span>
+                            <span class="block font-normal">L’Excellence de la Tradition à</span>
+                            <span class="block text-secondary font-normal">l’Innovation</span>
                           </h4>
                          <!-- <p class="mt-4 text-lg font-semibold text-center">
                             Redécouvrez l’art du couscous sous un nouveau jour ! 
                           </p> -->
-                          <div class="text-center">
-                            <button type="button" class="btn mt-8 bg-white py-[19px] px-8 text-black hover:bg-black hover:text-white md:mt-[60px] ">Connecter</button>
-                            <button type="button" class="btn mt-8 mx-4 bg-white py-[19px] px-8 text-black hover:bg-black hover:text-white md:mt-[60px] ">Découvrir nos Packs!</button>
+                          <div class="flex justify-center">
+                            <button type="button" class="btn mt-4 mx-4 border border-white bg-transparent py-[12px] px-4 text-white hover:bg-[#D3A953] hover:text-white md:mt-[30px] flex items-center justify-center gap-2">
+                                Découvrir nos Packs!
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
                           </div>
                     </div>
                 </div>
@@ -98,7 +102,7 @@
             <img
                 src="/assets/images/restaurent/waiter.png"
                 alt=""
-                class="absolute top-[500px] z-[1] w-48 ltr:left-[5%] rtl:left-[20%] rotate-y-180"
+                class="absolute top-[500px] z-[1] w-48 ltr:left-[5%] rtl:left-[20%] rotate-y-180 hidden sm:block"
                 data-aos="fade-up"
                 data-aos-duration="1000"
             />
@@ -159,10 +163,10 @@
                         </div>
                         <div class="space-y-5">
                             <div class="heading mb-0">
-                                <h4 class="uppercase">Qu'est-ce que la <span class="text-primary">Couscous Academy </span></h4>
+                                <h4 class="uppercase">Qu'est-ce que la <span class="text-primary font-andada">Couscous Academy </span>?</h4>
                             </div>
                             <p class="text-lg font-medium">
-                                La Couscous Academy représente l'authenticité et l'art des recettes culinaires authentiques à base de couscous. Son objectif ne se limite pas aux recettes de couscous traditionnelles. 
+                                La <span class="text-primary font-andada">Couscous Academy </span> représente l'authenticité et l'art des recettes culinaires authentiques à base de couscous. Son objectif ne se limite pas aux recettes de couscous traditionnelles. 
                                 L'académie soutient les passionnés en apportant des éclairages scientifiques sur les recettes originales et en les adaptant aux besoins actuels.   
                             </p>
                             <p class="text-lg font-medium">
@@ -239,9 +243,9 @@
             <div class="container">
               <div class="heading text-center">
                 <h6>Nos Packs 2025</h6>
-                <h4 class="mb-4 uppercase">Créés par les plus grands <span class="text-secondary">Chefs</span></h4>
+                <h4 class="mb-4 uppercase">Créés par les plus grands <span class="text-secondary font-andada">Chefs</span></h4>
                 <p class="mx-auto text-lg font-medium lg:w-1/2">
-                    À la Couscous Academy, nous fusionnons tradition et savoir-faire moderne pour sublimer les recettes authentiques                </p>
+                    À la <span class="text-secondary font-andada">Couscous Academy </span>, nous fusionnons tradition et savoir-faire moderne pour sublimer les recettes authentiques                </p>
               </div>
           
               <!-- Grid des packs -->
@@ -256,13 +260,18 @@
                   </div>
                   <div class="space-y-3 p-5">
                     <div class="flex items-center justify-center gap-3">
-                      <h2 class="text-2xl font-extrabold text-secondary">{{ pack.price }}</h2>
-                      <span>{{ pack.duration }}</span>
+                        <span>{{ pack.duration }}</span>
+                      <h2 class="text-2xl font-extrabold text-black">{{ pack.price }}</h2>
                     </div>
-                    <h2 class="text-2xl font-extrabold text-black line-clamp-1 dark:text-white">{{ pack.title }}</h2>
+                    <h2 class="text-2xl  text-black line-clamp-1 dark:text-white font-andada font-normal">{{ pack.title }}</h2>
                     <p class="line-clamp-2">{{ pack.description }}</p>
-                    <a href="javascript:" class="btn !mt-6 rounded-md bg-secondary text-white hover:bg-primary">CHOISIR PACK</a>
-                  </div>
+              <a href="javascript:" class="btn !mt-6 rounded-md bg-black text-white  border-black border-4 hover:border-secondary hover:bg-black hover:text-white font-bold flex items-center justify-center gap-2 px-6 py-3 transition">
+                        CHOISIR PACK
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                    </a>
+                </div>
                 </div>
               </div>
           
@@ -281,13 +290,17 @@
                   </div>
                   <div class="space-y-3 p-5">
                     <div class="flex items-center justify-center gap-3">
+                    <span>{{ pack.duration }}</span>
                       <h2 class="text-2xl font-extrabold text-secondary">{{ pack.price }}</h2>
-                      <span>{{ pack.duration }}</span>
                     </div>
                     <h2 class="text-2xl font-extrabold text-black line-clamp-1 dark:text-white">{{ pack.title }}</h2>
                     <p class="line-clamp-2">{{ pack.description }}</p>
-                    <a href="javascript:" class="btn !mt-6 rounded-md bg-secondary text-white hover:bg-primary">CHOOSE PLAN</a>
-                  </div>
+                    <a href="javascript:" class="btn !mt-6 rounded-md bg-black text-white  border-black border-4 hover:border-secondary hover:bg-black hover:text-white font-bold flex items-center justify-center gap-2 px-6 py-3 transition">
+                        CHOISIR PACK
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                    </a>                  </div>
                 </div>
               </div>
           
@@ -383,8 +396,17 @@
                             </li>
                         </ul>
                         <div class="mt-8 flex items-center justify-center gap-6 lg:justify-start">
-                            <button type="button" class="btn py-[19px] px-8 text-white shadow-[10px_15px_30px_rgba(199,128,161,0.2)]">Consulter</button>
+                            <a target="_blank" href="https://web-mobile-solutions.com/?fbclid=IwY2xjawIPyutleHRuA2FlbQIxMAABHfOuwBVkj9fze0i_d19LMuZg_DgtAZ1jEfsDggvSmlXGwGZc_T_CY0-ZVg_aem_f-VT5RkFQurNibYSfpAFjw">
+                                <button type="button" class="btn flex items-center gap-2 py-[10px] px-4 text-white shadow-[10px_15px_30px_rgba(199,128,161,0.2)]">
+                                    Consulter
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5"/>
+                                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+                                    </svg>
+                                </button>
+                            </a>
                         </div>
+                        
                     </div>
                     <div class="top-0 mt-0 w-full max-w-[686px] ltr:right-0 rtl:left-0 lg:absolute" data-aos="fade-left" data-aos-duration="1000">
                         <img src="/assets/images/restaurent/wmssection.png" class="rtl:rotate-y-180" alt="" />

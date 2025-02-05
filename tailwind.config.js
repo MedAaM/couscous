@@ -25,6 +25,7 @@ module.exports = {
         fontFamily: {
             mulish: ['Mulish', 'sans-serif'],
             reey: ['reey', 'sans-serif'],
+            andada: ['Andada', 'serif']
         },
         colors: {
             transparent: 'transparent',
@@ -32,7 +33,7 @@ module.exports = {
             white: '#ffffff',
             black: '#08111F',
             primary: '#D3A953',
-            secondary: '#B476E5',
+            secondary: '#DDB203',
             gray: {
                 DEFAULT: '#7780A1',
                 dark: '#1C2331',
