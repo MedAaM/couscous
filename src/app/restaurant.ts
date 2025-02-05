@@ -130,12 +130,12 @@ export class RestaurantComponent {
       ];
       
       items = [
-        { src: '/assets/images/event-concert/gallery1.jpg', thumb: '/assets/images/event-concert/gallery1.jpg' },
-        { src: '/assets/images/event-concert/gallery2.jpg', thumb: '/assets/images/event-concert/gallery2.jpg' },
-        { src: '/assets/images/event-concert/gallery3.jpg', thumb: '/assets/images/event-concert/gallery3.jpg' },
-        { src: '/assets/images/event-concert/gallery4.jpg', thumb: '/assets/images/event-concert/gallery4.jpg' },
-        { src: '/assets/images/event-concert/gallery5.jpg', thumb: '/assets/images/event-concert/gallery5.jpg' },
-        { src: '/assets/images/event-concert/gallery6.jpg', thumb: '/assets/images/event-concert/gallery6.jpg' },
+        { src: '/assets/images/restaurent/gal1.jpg', thumb: '/assets/images/restaurent/gal1.jpg' },
+        { src: '/assets/images/restaurent/gal2.jpg', thumb: '/assets/images/restaurent/gal2.jpg' },
+        { src: '/assets/images/restaurent/gal3.png', thumb: '/assets/images/restaurent/gal3.png' },
+        { src: '/assets/images/restaurent/gal4.jpg', thumb: '/assets/images/restaurent/gal4.jpg' },
+        { src: '/assets/images/restaurent/gal5.jpg', thumb: '/assets/images/restaurent/gal5.jpg' },
+        { src: '/assets/images/restaurent/gal6.jpg', thumb: '/assets/images/restaurent/gal6.jpg' },
     ];
       
 

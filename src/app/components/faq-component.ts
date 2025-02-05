@@ -31,7 +31,7 @@ export class FaqAccordionComponent {
         {
             id: 5,
             question: 'Quelles sont vos méthodes de paiement ?',
-            answer: '💳 Nous acceptons plusieurs modes de paiement : carte bancaire, virement, Paypal, d17 et paiement en ligne sécurisé.',
+            answer: '💳 Nous acceptons plusieurs modes de paiement : carte bancaire, virement, Paypal et paiement en ligne sécurisé.',
         },
         {
             id: 6,

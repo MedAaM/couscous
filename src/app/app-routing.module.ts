@@ -38,10 +38,13 @@ import { PersonalPortfolioComponent } from './personal-portfolio';
 import { RestaurantComponent } from './restaurant';
 import { PortfolioLandingComponent } from './portfolio-landing';
 import { PhotographyComponent } from './photography';
+import { LoginComponent } from './components/login';
 
 const routes: Routes = [
-    { path: '', component: IndexComponent, title: '' },
+    { path: '', component: RestaurantComponent , title: '' },
     { path: 'portfolio', component: PortfolioComponent, title: 'Portfolio | Couscous Academy ' },
+    { path: 'login', component: LoginComponent, title: 'Login | Couscous Academy ' },
+
     { path: 'portfolio-detail', component: PortfolioDetailComponent, title: 'Portfolio Detail | Couscous Academy' },
     { path: 'services', component: ServicesComponent, title: 'Evenements | Couscous Academy ' },
     { path: 'services-detail', component: ServicesDetailComponent, title: 'Services Detail | Couscous Academy' },
