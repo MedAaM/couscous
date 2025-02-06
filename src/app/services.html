@@ -360,46 +360,15 @@
         </div>
     </div>
 
-    <section class="bg-gradient-to-t from-white/[54%] to-transparent py-14 dark:bg-none lg:py-[100px]">
-        <div class="container">
-            <div class="grid items-center gap-8 md:grid-cols-3 lg:grid-cols-2 xl:items-start">
-                <div class="order-2 md:order-1 md:col-span-2 lg:col-auto">
-                    <div class="heading mb-5 text-center ltr:md:text-left rtl:md:text-right">
-                        <h4>Qu'est-ce que l'Olympiade du Couscous ?</h4>
-                    </div>
-                    <div class="text-center font-semibold ltr:md:text-left rtl:md:text-right">
-                        <p>
-                            L'Olympiade du Couscous est un concours culinaire réel présenté au format d'une Olympiade.
-                             Les participants éligibles, qu'ils concourent individuellement ou en équipe
-                              (avec des formats d'équipe prédéfinis), peuvent participer à différentes
-                               catégories pour accumuler le plus grand nombre de points possible. 
-                               Ce système de points détermine le classement général (individuel ou en équipe).
-                                En plus des médailles, des récompenses et des reconnaissances pour chaque catégorie,
-                                 le classement général identifiera les trois meilleurs gagnants de l'Olympiade.
-                        </p>
-                        <a href="/career#open-position" class="btn mt-10 capitalize text-white">Participier</a>
-                    </div>
-                </div>
-                <img
-                    src="/assets/images/restaurent/olympic.png"
-                    alt="creative-agency"
-                    class="order-1 mx-auto rounded-[32px] md:order-2 md:mx-0"
-                    [attr.data-aos]="storeData.direction === 'rtl' ? 'fade-right' : 'fade-left'"
-                    data-aos-duration="1000"
-                    style="width: 600px; height: auto;"
+    
 
-                />
-            </div>
-        </div>
-    </section>
-
-    <section class="relative bg-gradient-to-t from-white/50 to-transparent py-12 dark:from-white/[0.02] lg:py-24">
+    <section class="relative bg-gradient-to-t from-white/50 to-transparent pt-28 md:pt-12 py-12 dark:from-white/[0.02] lg:py-24">
         <div class="container">
             <div class="relative text-center">
                 <h4 class="relative inline-block text-3xl font-black italic text-black dark:text-white md:text-6xl md:leading-[90px]">
                     EVENEMENTS A VENIR
                     <span
-                        class="absolute -top-[50px] -left-[60px] whitespace-nowrap bg-gradient-to-r from-secondary to-primary bg-clip-text p-[30px] font-reey text-3xl font-normal text-transparent md:-top-10 md:text-[40px]"
+                        class="absolute -top-[80px] -left-[60px] whitespace-nowrap bg-gradient-to-r from-secondary to-primary bg-clip-text p-[30px] font-reey text-3xl font-normal text-transparent md:-top-10 md:text-[40px]"
                         >Dates pour notre</span>
                 </h4>
                 <p class="mx-auto mt-5 max-w-[616px] text-base font-semibold uppercase">
@@ -418,8 +387,8 @@ Tous les évenements
                         class="group bg-gray/[0.06] py-[15px] px-8 text-center duration-200 hover:bg-secondary"
                         (click)="activeTab = 'first-day'"
                     >
-                        <h6 class="text-sm font-extrabold group-hover:text-white">FIRST DAY</h6>
-                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">15 Fab, 2023</span>
+                        <h6 class="text-sm font-extrabold group-hover:text-white">1er jour</h6>
+                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">15 Fév,, 2023</span>
                     </button>
                 </li>
                 <li class="filter" [ngClass]="{ active: activeTab === 'second-day' }">
@@ -428,8 +397,8 @@ Tous les évenements
                         class="group bg-gray/[0.06] py-[15px] px-8 text-center duration-200 hover:bg-secondary"
                         (click)="activeTab = 'second-day'"
                     >
-                        <h6 class="text-sm font-extrabold group-hover:text-white">SECOND DAY</h6>
-                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">16 Fab, 2023</span>
+                        <h6 class="text-sm font-extrabold group-hover:text-white">2éme DAY</h6>
+                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">16 Fév,, 2023</span>
                     </button>
                 </li>
                 <li class="filter" [ngClass]="{ active: activeTab === 'third-day' }">
@@ -438,8 +407,8 @@ Tous les évenements
                         class="group bg-gray/[0.06] py-[15px] px-8 text-center duration-200 hover:bg-secondary"
                         (click)="activeTab = 'third-day'"
                     >
-                        <h6 class="text-sm font-extrabold group-hover:text-white">THIRD DAY</h6>
-                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">17 Fab, 2023</span>
+                        <h6 class="text-sm font-extrabold group-hover:text-white">3éme DAY</h6>
+                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">17 Fév,, 2023</span>
                     </button>
                 </li>
                 <li class="filter" [ngClass]="{ active: activeTab === 'fourthd-day' }">
@@ -448,8 +417,8 @@ Tous les évenements
                         class="group bg-gray/[0.06] py-[15px] px-8 text-center duration-200 hover:bg-secondary"
                         (click)="activeTab = 'fourth-day'"
                     >
-                        <h6 class="text-sm font-extrabold group-hover:text-white">FOURTH DAY</h6>
-                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">18 Fab, 2023</span>
+                        <h6 class="text-sm font-extrabold group-hover:text-white">4éme DAY</h6>
+                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">18 Fév,, 2023</span>
                     </button>
                 </li>
                 <li class="filter" [ngClass]="{ active: activeTab === 'fifty-day' }">
@@ -458,8 +427,8 @@ Tous les évenements
                         class="group bg-gray/[0.06] py-[15px] px-8 text-center duration-200 hover:bg-secondary"
                         (click)="activeTab = 'fifty-day'"
                     >
-                        <span class="block text-sm font-extrabold group-hover:text-white">FIFTY DAY</span>
-                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">19 Fab, 2023</span>
+                        <span class="block text-sm font-extrabold group-hover:text-white">5éme DAY</span>
+                        <span class="mt-[6px] text-[12px] font-bold leading-4 text-black group-hover:text-white dark:text-white">19 Fév,, 2023</span>
                     </button>
                 </li>
             </ul>
@@ -469,11 +438,11 @@ Tous les évenements
                     [ngClass]="activeTab === 'all-events' ? 'block' : 'hidden'"
                 >
                     <div class="h-20 w-20 flex-none overflow-hidden rounded-[80px] border-[3px] border-gray/30">
-                        <img src="/assets/images/event-concert/parties1.jpg" class="h-full w-full object-cover" alt="" />
+                        <img src="/assets/images/restaurent/chef4.jpg" class="h-full w-full object-cover" alt="" />
                     </div>
                     <div class="flex-1">
                         <div class="flex items-center justify-center gap-[14px] text-sm font-semibold text-gray sm:justify-start">
-                            <p>Sat, Feb 11</p>
+                            <p>Sat, Fév, 11</p>
                             <span class="font-bold opacity-20">|</span>
                             <p>11:30 AM</p>
                             <span class="opacity-20">|</span>
@@ -486,18 +455,18 @@ Tous les évenements
                                         />
                                     </svg>
                                 </span>
-                                <p>New York</p>
+                                <p>Carthage</p>
                             </div>
                         </div>
                         <a
                             href="javascript:"
                             class="mb-2.5 mt-[14px] block font-black uppercase text-black transition hover:text-secondary dark:text-white sm:text-lg"
-                            >Team With At Least Three Conference Titles</a
+                            >Olympiade de Couscous</a
                         >
-                        <p>By <span class="font-bold text-secondary">Marty Blum</span>, Spark 99 Event Management</p>
+                        <p>Organisé par <span class="font-bold text-secondary">Chef </span>Abdelfatteh Ben Ali</p>
                         <button 
                        class="mt-4 bg-primary text-white py-2 px-4 rounded hover:bg-secondary transition">
-                         Réserver maintenant
+                         Participer
                          </button>
                     </div>
                 </div>
@@ -506,7 +475,7 @@ Tous les évenements
                     [ngClass]="activeTab === 'all-events' ? 'block' : 'hidden'"
                 >
                     <div class="h-20 w-20 flex-none overflow-hidden rounded-full border-[3px] border-gray/30">
-                        <img src="/assets/images/event-concert/parties2.jpg" class="h-full w-full object-cover" alt="" />
+                        <img src="/assets/images/restaurent/chef1.jpg" class="h-full w-full object-cover" alt="" />
                     </div>
                     <div class="flex-1">
                         <div class="flex items-center justify-center gap-[14px] text-sm font-semibold text-gray sm:justify-start">
@@ -523,19 +492,19 @@ Tous les évenements
                                         />
                                     </svg>
                                 </span>
-                                <p>California</p>
+                                <p>Hammamet</p>
                                 
                             </div>
                         </div>
                         <a
                             href="javascript:"
                             class="mb-2.5 mt-[14px] block font-black uppercase text-black transition hover:text-secondary dark:text-white sm:text-lg"
-                            >Born to Die: Lana Del Anniversary Dance Party</a
+                            >Journée international de Couscous</a
                         >
-                        <p>By <span class="font-bold text-secondary">Charlotte Laws</span>, #TheRnBParty</p>
+                        <p>Organisé par <span class="font-bold text-secondary">Chef</span>, Aymen</p>
                         <button 
                            class="mt-4 bg-primary text-white py-2 px-4 rounded hover:bg-secondary transition">
-                            Réserver maintenant
+                            Participer
                     </button>
                     </div>
                 </div>
@@ -544,11 +513,11 @@ Tous les évenements
                     [ngClass]="activeTab === 'all-events' ? 'block' : 'hidden'"
                 >
                     <div class="h-20 w-20 flex-none overflow-hidden rounded-[80px] border-[3px] border-gray/30">
-                        <img src="/assets/images/event-concert/parties1.jpg" class="h-full w-full object-cover" alt="" />
+                        <img src="/assets/images/restaurent/chef3.jpg" class="h-full w-full object-cover" alt="" />
                     </div>
                     <div class="flex-1">
                         <div class="flex items-center justify-center gap-[14px] text-sm font-semibold text-gray sm:justify-start">
-                            <p>Sat, Feb 25</p>
+                            <p>Sat, Fév, 25</p>
                             <span class="font-bold opacity-20">|</span>
                             <p>6:00 PM</p>
                             <span class="opacity-20">|</span>
@@ -561,18 +530,18 @@ Tous les évenements
                                         />
                                     </svg>
                                 </span>
-                                <p>Texas</p>
+                                <p>Sfax</p>
                             </div>
                         </div>
                         <a
                             href="javascript:"
                             class="mb-2.5 mt-[14px] block font-black uppercase text-black transition hover:text-secondary dark:text-white sm:text-lg"
-                            >Certified Saturdays At Karta Lounge #1 Vibes Party in The City</a
+                            >Journée organisationnelle</a
                         >
-                        <p>By <span class="font-bold text-secondary">Jose Esteves</span>, Karta Lounge & Event Space</p>
+                        <p>Organisé par <span class="font-bold text-secondary">Chef </span>Hajer</p>
                         <button 
                            class="mt-4 bg-primary text-white py-2 px-4 rounded hover:bg-secondary transition">
-                            Réserver maintenant
+                            Participer
                             </button>
                     </div>
                 </div>
@@ -581,7 +550,7 @@ Tous les évenements
                     [ngClass]="activeTab === 'all-events' ? 'block' : 'hidden'"
                 >
                     <div class="h-20 w-20 flex-none overflow-hidden rounded-full border-[3px] border-gray/30">
-                        <img src="/assets/images/event-concert/parties2.jpg" class="h-full w-full object-cover" alt="" />
+                        <img src="/assets/images/restaurent/chef2.jpg" class="h-full w-full object-cover" alt="" />
                     </div>
                     <div class="flex-1">
                         <div class="flex items-center justify-center gap-[14px] text-sm font-semibold text-gray sm:justify-start">
@@ -598,22 +567,22 @@ Tous les évenements
                                         />
                                     </svg>
                                 </span>
-                                <p>Brooklyn, NY</p>
+                                <p>Mahdia</p>
                             </div>
                         </div>
                         <a
                             href="javascript:"
                             class="mb-2.5 mt-[14px] block font-black uppercase text-black transition hover:text-secondary dark:text-white sm:text-lg"
-                            >Sunday Jazz - Underground Social Club</a
+                            >Journée de recette</a
                         >
-                        <p>By <span class="font-bold text-secondary">Bill Brough</span>, House of Yes</p>
+                        <p>Organisé par <span class="font-bold text-secondary">Chef </span>, Nabil Rokbani</p>
                         <button 
                            class="mt-4 bg-primary text-white py-2 px-4 rounded hover:bg-secondary transition">
-                            Réserver maintenant
+                            Participer
                             </button>
                     </div>
                 </div>
-                <div
+               <!--  <div
                     class="project flex flex-col items-center gap-5 bg-white p-5 text-center dark:bg-gray-dark sm:flex-row ltr:sm:text-left rtl:sm:text-right"
                     [ngClass]="activeTab === 'all-events' ? 'block' : 'hidden'"
                 >
@@ -622,7 +591,7 @@ Tous les évenements
                     </div>
                     <div class="flex-1">
                         <div class="flex items-center justify-center gap-[14px] text-sm font-semibold text-gray sm:justify-start">
-                            <p>Sun, Feb 12</p>
+                            <p>Sun, Fév, 12</p>
                             <span class="font-bold opacity-20">|</span>
                             <p>3:30 AM</p>
                             <span class="opacity-20">|</span>
@@ -643,10 +612,10 @@ Tous les évenements
                             class="mb-2.5 mt-[14px] block font-black uppercase text-black transition hover:text-secondary dark:text-white sm:text-lg"
                             >FREE Live Jazz Music - Jam session & jazz Open Mic - Sundays!</a
                         >
-                        <p>By <span class="font-bold text-secondary">Vicente Sarmiento</span>, orei Jazz & Company</p>
+                        <p>Organisé par <span class="font-bold text-secondary">Vicente Sarmiento</span>, orei Jazz & Company</p>
                         <button 
                            class="mt-4 bg-primary text-white py-2 px-4 rounded hover:bg-secondary transition">
-                            Réserver maintenant
+                            Participer
                             </button>
                     </div>
                 </div>
@@ -655,11 +624,11 @@ Tous les évenements
                     [ngClass]="activeTab === 'all-events' ? 'block' : 'hidden'"
                 >
                     <div class="h-20 w-20 flex-none overflow-hidden rounded-full border-[3px] border-gray/30">
-                        <img src="/assets/images/event-concert/parties2.jpg" class="h-full w-full object-cover" alt="" />
+                        <img src="/assets/images/restaurent/chef1.jpg" class="h-full w-full object-cover" alt="" />
                     </div>
                     <div class="flex-1">
                         <div class="flex items-center justify-center gap-[14px] text-sm font-semibold text-gray sm:justify-start">
-                            <p>Wed, Feb 15</p>
+                            <p>Wed, Fév, 15</p>
                             <span class="font-bold opacity-20">|</span>
                             <p>7:30 PM</p>
                             <span class="opacity-20">|</span>
@@ -680,18 +649,111 @@ Tous les évenements
                             class="mb-2.5 mt-[14px] block font-black uppercase text-black transition hover:text-secondary dark:text-white sm:text-lg"
                             >The Grand Reunion Concert of The R&B/ Funk Band SKYY</a
                         >
-                        <p>By <span class="font-bold text-secondary">Alan Lowenthal</span>, Ira Zadikow</p>
+                        <p>Organisé par <span class="font-bold text-secondary">Alan Lowenthal</span>, Ira Zadikow</p>
                         <button 
                            class="mt-4 bg-primary text-white py-2 px-4 rounded hover:bg-secondary transition">
-                            Réserver maintenant
+                            Participer
                             </button>
                     </div>
-                </div>
+                </div> -->
             
                     </div>
                 </div>
     </section>
-    
+
+    <section class="bg-gradient-to-t from-white/[54%] to-transparent py-14 dark:bg-none lg:py-[100px]">
+        <div class="container">
+            <div class="grid items-center gap-8 md:grid-cols-3 lg:grid-cols-2 xl:items-start">
+                <div class="order-2 md:order-1 md:col-span-2 lg:col-auto">
+                    <div class="heading mb-5 text-center ltr:md:text-left rtl:md:text-right">
+                        <h4>Qu'est-ce que <span class="text-primary font-andada">l'Olympiade du Couscous </span> ?</h4>
+                    </div>
+                    <div class="text-center font-semibold ltr:md:text-left rtl:md:text-right">
+                        <p>
+                            <span class="text-primary font-andada">l'Olympiade du Couscous </span> est un concours culinaire réel présenté au format d'une Olympiade.
+                            Les participants éligibles, qu'ils concourent individuellement ou en équipe
+                            (avec des formats d'équipe prédéfinis), peuvent participer à différentes
+                            catégories pour accumuler le plus grand nombre de points possible. 
+                            Ce système de points détermine le classement général (individuel ou en équipe).
+                            En plus des médailles, des récompenses et des reconnaissances pour chaque catégorie,
+                            le classement général identifiera les trois meilleurs gagnants de l'Olympiade.
+                        </p>
+                        <a href="/career#open-position" class="btn mt-10 capitalize text-white">Participier</a>
+                    </div>
+                </div>
+                <div class="order-1 mx-auto md:order-2">
+                    <img
+                        src="/assets/images/restaurent/olympic.png"
+                        alt="creative-agency"
+                        class="rounded-[32px] text-center"
+                        [attr.data-aos]="storeData.direction === 'rtl' ? 'fade-right' : 'fade-left'"
+                        data-aos-duration="1000"
+                        style="width: 300px; height: auto;"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative bg-black py-12 dark:bg-white/5 lg:py-24">
+        <div class="absolute inset-0 bg-[url('/assets/images/restaurent/Image1.jpg')] bg-cover  bg-[center_top] opacity-60"></div>
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="container relative z-[1]">
+            <div class="heading text-center text-white">
+                <h4 class="mb-2 !font-black uppercase !text-white">Objectifs de <span class="text-secondary">l'événement</span></h4>
+                <div class="flex justify-center">
+                    <img src="/assets/images/restaurent/tunisflag.png" class="h-20 w-28 text-center duration-200 group-hover:rotate-2 group-hover:scale-110" alt="" />
+                </div>          
+                </div>
+            <div class="mt-8 grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3" data-aos="flip-left" data-aos-duration="1000">
+                <div class="group flex flex-col">
+                    <div class="overflow-hidden">
+                        <img src="/assets/images/restaurent/obj1.jpg" class="w-full duration-200 group-hover:rotate-2 group-hover:scale-110" alt="" />
+                    </div>
+                    <div class="relative mx-4 -mt-10 flex-grow space-y-2.5 opacity-90 bg-gray-dark px-4 pt-[22px] text-center dark:bg-black md:px-[26px]  border-4 border-transparent hover:border-secondary">
+                        <h5 class="text-2xl font-bold text-primary group-hover:text-secondary">Promouvoir le patrimoine culinaire tunisien </h5>
+                        <div class="mx-auto h-1 w-[50px] bg-secondary duration-200 group-hover:bg-primary"></div>
+                        <p class="pb-[60px] text-lg font-semibold text-white">
+                            Faire découvrir les saveurs authentiques du couscous tunisien tout en mettant en lumière sa richesse et sa diversité.
+                        </p>
+                        <span class="absolute bottom-0 opacity-20 ltr:right-0 rtl:left-0">
+                            <img src="/assets/images/consulting/services-icon1.svg" alt="" />
+                        </span>
+                    </div>
+                </div>
+                <div class="group flex flex-col">
+                    <div class="overflow-hidden">
+                        <img src="/assets/images/restaurent/obj2.jpg" class="w-full duration-200 group-hover:rotate-2 group-hover:scale-110" alt="" />
+                    </div>
+                    <div class="relative mx-4 -mt-10 flex-grow space-y-2.5 opacity-90 bg-gray-dark px-4 pt-[22px] text-center dark:bg-black md:px-[26px] border-4 border-transparent hover:border-secondary">
+                        <h5 class="text-2xl font-bold text-primary group-hover:text-secondary">Célébrer la diversité internationale du couscous </h5>
+                        <div class="mx-auto h-1 w-[50px] bg-secondary duration-200 group-hover:bg-primary"></div>
+                        <p class="pb-[60px] text-lg font-semibold text-white">
+                            Valoriser les différentes façons dont ce plat est préparé à travers les cultures et les continents
+                        </p>
+                        <span class="absolute bottom-0 opacity-20 ltr:right-0 rtl:left-0">
+                            <img src="/assets/images/consulting/services-icon2.svg" alt="" />
+                        </span>
+                    </div>
+                </div>
+                <div class="group flex flex-col">
+                    <div class="overflow-hidden">
+                        <img src="/assets/images/restaurent/obj3.jpg" class="w-full duration-200 group-hover:rotate-2 group-hover:scale-110" alt="" />
+                    </div>
+                    <div class="relative mx-4 -mt-10 flex-grow space-y-2.5 opacity-90 bg-gray-dark px-4 pt-[22px] text-center dark:bg-black md:px-[26px] border-4 border-transparent hover:border-secondary">
+                        <h5 class="text-2xl font-bold text-primary group-hover:text-secondary">Encourager la créativité gastronomique </h5>
+                        <div class="mx-auto h-1 w-[50px] bg-secondary duration-200 group-hover:bg-primary"></div>
+                        <p class="pb-[60px] text-lg font-semibold text-white">
+                            Stimuler l’innovation tout en respectant les traditions culinaires.
+                        </p>
+                        <span class="absolute bottom-0 opacity-20 ltr:right-0 rtl:left-0">
+                            <img src="/assets/images/consulting/about-icon2.svg" alt="" />
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- <section class="py-14 lg:py-[100px]">
         <counter [showTitle]="false"></counter>
@@ -714,7 +776,7 @@ Tous les évenements
                     <h4>We make your spending stress-free for you to have the perfect control.</h4>
                     <p class="pt-5 text-lg font-semibold">
                         Find out everything you need to know and more about how we create our business process models. There are many variations of passages of
-                        Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+                        Lorem Ipsum available, but the majority have suffered alteration in some form, Organisé par injected humour, or randomised words which don't look
                         even slightly believable.
                     </p>
                 </div>

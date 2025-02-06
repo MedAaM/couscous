@@ -10,11 +10,11 @@ import { Lightbox, LightboxConfig } from 'ngx-lightbox';
 export class AboutUsComponent {
     storeData: any;
     items = [
-        { src: '/assets/images/gallery-1.png', thumb: '/assets/images/gallery-1.png' },
-        { src: '/assets/images/gallery-2.png', thumb: '/assets/images/gallery-2.png' },
-        { src: '/assets/images/gallery-3.png', thumb: '/assets/images/gallery-3.png' },
-        { src: '/assets/images/gallery-4.png', thumb: '/assets/images/gallery-4.png' },
-        { src: '/assets/images/gallery-5.png', thumb: '/assets/images/gallery-5.png' },
+        { src: '/assets/images/restaurent/gal1.jpg', thumb: '/assets/images/restaurent/gal1.jpg' },
+        { src: '/assets/images/restaurent/gal2.jpg', thumb: '/assets/images/restaurent/gal2.jpg' },
+        { src: '/assets/images/restaurent/gal3.jpg', thumb: '/assets/images/restaurent/gal3.jpg' },
+        { src: '/assets/images/restaurent/gal4.jpg', thumb: '/assets/images/restaurent/gal4.jpg' },
+        { src: '/assets/images/restaurent/gal5.jpg', thumb: '/assets/images/restaurent/gal5.jpg' },
     ];
     constructor(public store: Store<any>, private _lightbox: Lightbox, private _lightboxConfig: LightboxConfig) {
         this.initStore();

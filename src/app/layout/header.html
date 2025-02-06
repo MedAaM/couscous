@@ -1,6 +1,6 @@
 ﻿<div class="container">
     <div class="flex items-center justify-between py-0 sm:mt-0 -mt-4 lg:py-0">
-        <a routerLink="/"><img src="/assets/images/restaurent/logo.png" alt="logo" class="h-24 w-20" /></a>
+        <a routerLink="/"><img src="/assets/images/restaurent/logo.png" alt="logo" class="h-32 w-24 mt-4" /></a>
         <div class="flex items-center">
             <div (click)="toggleMenu()" class="overlay fixed inset-0 z-[51] bg-black/60 lg:hidden" [ngClass]="{ hidden: !showMenu }"></div>
             <div class="menus" [ngClass]="{'overflow-y-auto ltr:!right-0 rtl:!left-0': showMenu }">
@@ -23,7 +23,7 @@
                         <a routerLink="/restaurant" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"> Accueil </a>
                     </li>
                     <li class="group relative" (click)="$event.stopPropagation()">
-                        <a
+                        <!-- <a
                             href="javascript:;"
                             [ngClass]="{ active: router.url === '/crypto'
                             || router.url === '/modern-saas'
@@ -48,7 +48,8 @@
                             || router.url === '/personal-portfolio'
                             || router.url === '/portfolio-landing'
                         }"
-                        >
+                        > -->
+                        <a>
                             Packs
                             <div class="transition duration-500 group-hover:rotate-180 ltr:ml-2 rtl:mr-2">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,15 +105,20 @@
                     <li>
                         <a routerLink="/about-us" routerLinkActive="active">A Propos</a>
                     </li>
+                    <li class="lg:hidden mt-2 pt-4 flex justify-center items-center"> <!-- Added mobile-specific class and margin -->
+                        <button type="button" class="btn w-auto mx-4 border bg-transparent py-[12px] px-6 hover:bg-[#D3A953] flex items-center justify-center gap-2 rounded-full">
+                            <a routerLink="/login">Se Connecter</a>
+                        </button>
+                    </li>
                    <!--  <li>
                         <a routerLink="/career" routerLinkActive="active"> Career </a>
                     </li> -->
                     <li
-                        class="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex"
+                        class=" hidden lg:inline-flex relative  items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px]"
                     >
                     <button type="button" class="btn  mx-2 border border-white bg-transparent py-[12px] px-4 text-white hover:bg-[#D3A953] hover:text-white flex items-center justify-center gap-2 rounded-full">
                         <a routerLink="/login">Se Connecter</a>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 14a4 4 0 00-8 0m8 0a4 4 0 00-8 0m8 0v2a4 4 0 01-8 0v-2m8 0H8m8 0a6 6 0 01-12 0m12 0v2a6 6 0 01-12 0v-2"></path>
                         </svg>
                         

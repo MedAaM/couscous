@@ -10,7 +10,8 @@ import { FormsModule } from '@angular/forms';
 export class LoginComponent {
     credentials = {
         email: '',
-        password: ''
+        password: '',
+        phone:''
     };
 
     submitForm() {

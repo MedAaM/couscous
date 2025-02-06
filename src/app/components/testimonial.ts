@@ -26,17 +26,17 @@ export class TestimonialComponent {
             id: 2,
             name: 'Amina bent elqich',
             role: 'Membre de l\'Academy',
-            thumbnail: '/assets/images/testimonial.png',
+            thumbnail: '/assets/images/leader-12.png',
             message:
-                "Application top ! 😍📱 J’adore les recettes de couscous tunisien, elles sont super détaillées et les étapes sont claires 🍲🇹🇳. Grâce aux formations, j’ai appris de nouvelles techniques de cuisine et j’ai pu améliorer mes plats 👩‍🍳💡. L'interface est super simple à utiliser, et il y a toujours une recette pour chaque occasion 🎉🎈. Je suis fan ! 🤩👏 Hâte de découvrir encore plus de recettes et astuces. Je recommande vivement à tous les amoureux de la cuisine tunisienne ! 😋",
+                "Application top ! 😍📱 J’adore les recettes de couscous tunisien, elles sont super détaillées et les étapes sont claires 🍲🇹🇳. L'interface est super simple à utiliser, et il y a toujours une recette pour chaque occasion 🎉🎈. Je suis fan ! 🤩👏 Hâte de découvrir encore plus de recettes et astuces. Je recommande vivement à tous les amoureux de la cuisine tunisienne ! 😋",
         },
         {
             id: 3,
             name: 'hamdi eluch',
             role: 'Membre de l\'Academy',
-            thumbnail: '/assets/images/testimonial.png',
+            thumbnail: '/assets/images/leader-6.png',
             message:
-                "Application exceptionnelle ! 😍📲 J’ai toujours rêvé de maîtriser le couscous tunisien et grâce à cette app, j'ai enfin réussi 🍲🇹🇳. Les recettes sont bien expliquées, les vidéos sont claires et faciles à suivre 🎥🍴. Les formations sont super intéressantes et m'ont permis d'améliorer mes techniques culinaires 👨‍🍳💡. En plus, l'app est super ergonomique et agréable à utiliser ✨. Ce que j’aime particulièrement, c’est qu’il y a des astuces et des variantes pour chaque recette, ce qui permet de personnaliser les plats selon les goûts de chacun 🧑‍🍳💖. Je suis ravie et je recommande vivement à tous ceux qui aiment la cuisine tunisienne et veulent apprendre à la perfectionner ! 😋",
+                "Application exceptionnelle ! 😍📲 J’ai toujours rêvé de maîtriser le couscous tunisien et grâce à cette app, j'ai enfin réussi 🍲🇹🇳. Les recettes sont bien expliquées, les vidéos sont claires et faciles à suivre 🎥🍴. Les formations sont super intéressantes et m'ont permis d'améliorer mes techniques culinaires 👨‍🍳💡. Ce que j’aime particulièrement, c’est qu’il y a des astuces et des variantes pour chaque recette 🧑‍🍳💖.",
         },
     ];
     config: SwiperOptions = {
